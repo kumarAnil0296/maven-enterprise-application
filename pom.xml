@@ -18,5 +18,19 @@
 	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 </properties>
-  
+  <distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>google Releases Repository</name>
+	      <url>http://52.66.26.233:9992/Anil/repository/google-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>google Snapshot Repository </name>
+	      <url>http://52.66.26.233:9992/Anil/repository/google-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 </project>
